@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/star_off"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_products" />
+        <item
+            android:id="@+id/nav_docs"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="@string/menu_docs" />
+        <item
+            android:id="@+id/nav_cost"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="@string/menu_cost" />
+        <item
+            android:id="@+id/nav_suppliers"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_suppliers" />
+        <item
+            android:id="@+id/nav_sections"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/menu_sections" />
+    </group>
+</menu>
