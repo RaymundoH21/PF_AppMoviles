@@ -73,9 +73,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
+            case R.id.btnLogin:
+                Intent intent = new Intent(this, PanelActivity.class);
+                startActivity(intent);
+                break;
             case R.id.btnCaptureCode:
-                Intent intent = new Intent(this, SimpleScannerActivity.class);
+                intent = new Intent(this, SimpleScannerActivity.class);
+                startActivity(intent);
                 break;
         }
     }

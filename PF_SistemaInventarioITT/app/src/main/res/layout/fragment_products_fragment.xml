@@ -22,6 +22,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesion"
+        android:textColor="#4E342E"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
         android:id="@+id/btnCaptureCode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
